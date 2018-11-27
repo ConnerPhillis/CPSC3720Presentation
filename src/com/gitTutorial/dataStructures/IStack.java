@@ -10,11 +10,4 @@ public interface IStack<T> {
 
     int depth();
 
-    //test
-
-    //test two
-
-    // test three
-
-    //test four
 }
