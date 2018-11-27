@@ -6,6 +6,10 @@ public class Queue<T> implements IQueue<T> {
 
     private ArrayList<T> elements = new ArrayList<>();
 
+    private void doNothing(){
+        int yolo = 0;
+    }
+
     public T dequeue(){
         return elements.remove(0);
     }
